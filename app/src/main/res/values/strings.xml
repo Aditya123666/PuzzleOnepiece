@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Onepiece Puzzle</string>
+    <string name="btnTime">Waktu Tersisa </string>
+    <string name="btnNow">Level Saat ini: </string>
+
+    <string name="gameOver"> Game Over</string>
+    <string name="gameRestart"> Game restart</string>
+    <string name="gameSuccess"> Game Succes</string>
+    <string name="gameNextLevel"> Next Level</string>
+    <string name="gamePause">Pause</string>
+    <string name="gameResume">Lanjutkan Permainan</string>
+    <string name="gameTimeEnable">Tidak ada waktu</string>
+    <string name="gameOrigin">Lihat Gambar Asli</string>
+    <string name="gameChange">Ganti Gambar</string>
+
+    <string name="tipsGameController">Klik pada dua gambar untuk mengubah posisi dan menyelesaikan teka-teki untuk membuka lebih banyak gambar </string>
+    <string name="dialogCancel">Saya Tau</string>
+    <string name="dialogTitle">Tips</string>
+
+</resources>

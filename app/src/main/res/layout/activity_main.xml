@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/marginShort"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginNormal"
+            >
+
+            <Button
+                android:id="@+id/btnNow"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/marginShort"
+                android:text="@string/btnNow"/>
+
+            <Button
+                android:id="@+id/btnTime"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/marginShort"
+                android:onClick="onBtnTime"
+                android:text="@string/btnTime"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.marco.beautypuzzle.GamePuzzlePanel
+                android:id="@+id/gameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/marginNormal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnRestart"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/marginShort"
+                android:onClick="onBtnRestart"
+                android:text="@string/gameRestart"/>
+
+            <Button
+                android:id="@+id/btnOriginal"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/marginShort"
+                android:onClick="onBtnOriginal"
+                android:text="@string/gameOrigin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/marginNormal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnPause"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/marginShort"
+                android:onClick="onBtnPause"
+                android:text="@string/gamePause"/>
+
+            <Button
+                android:id="@+id/btnChange"
+                style="@style/btnSub"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/marginShort"
+                android:onClick="onBtnChange"
+                android:text="@string/gameChange"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
